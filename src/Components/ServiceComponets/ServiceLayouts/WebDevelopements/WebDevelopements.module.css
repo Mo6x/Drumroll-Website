@@ -1,0 +1,178 @@
+.WebDevelopementsContainer {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: cover;
+    background-size: cover;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-image: url(../../../../assets/ImageSlide3.svg);
+}
+
+.WebDevelopementsChildListOne {
+    gap: 20px;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35%;
+    flex-direction: column;
+}
+
+.WebDevelopementsH1 {
+    color: #FFF;
+    width: 700px;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+    font-style: normal;
+    font-family: Inter;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+}
+
+.WebDevelopementsButtonPara {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.WebDevelopementsBTC {
+    width: 120px;
+    height: 40px;
+    outline: none;
+    font-weight: 500;
+    line-height: 130%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+    color: rgba(0, 0, 0, 0.852);
+}
+
+.WebDevelopementsParas {
+    width: 820px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 130%;
+    font-family: Inter;
+    font-style: normal;
+    letter-spacing: 0.64px;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.WebDevelopementsItems {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.WebDevelopementsItemsH4 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    font-style: normal;
+    font-family: Inter;
+    color: rgba(255, 255, 255, 0.693);
+}
+
+.WebDevelopementsItemsLists {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.WebDevelopementsItemsLists1 {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.svgIcons {
+    width: 40px;
+}
+
+.ServiceHeaderItemsListsH4 {
+    width: 130px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 130%;
+    font-family: Inter;
+    font-style: normal;
+    letter-spacing: 0.64px;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+
+@media all and (max-width: 750px) {
+    .WebDevelopementsContainer {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .WebDevelopementsChildListOne {
+        gap: 20px;
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .WebDevelopementsButtonPara {
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .WebDevelopementsParas {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .WebDevelopementsH1 {
+        font-size: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .WebDevelopementsParas {
+        font-size: 18px;
+        padding: 20px;
+        line-height: 130%;
+        text-align: center;
+    }
+
+    .WebDevelopementsItems {
+        gap: 20px;
+        text-align: center;
+    }
+
+    .WebDevelopementsItemsLists {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .WebDevelopementsItemsListsH4 {
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.35);
+    }
+}
